@@ -1,0 +1,67 @@
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    height: 60px;
+    width: 100%;
+    background-color: cornflowerblue;
+    color: aliceblue;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    border-width: 1px;
+    margin-top: 12px;
+}
+
+.titulo {
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 25px;
+    color: aliceblue;
+}
+
+.subtitulo {
+    margin: 15px;
+    color: aliceblue;
+}
+
+.capa {
+    width: 350px;
+}
+
+.botao {
+    border-radius: 4px;
+    background-color: red;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 2px aliceblue;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: aliceblue;
+    color: red;
+    border: solid 2px red;
+}
